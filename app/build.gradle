@@ -4,7 +4,7 @@ plugins {
 }
 //apply plugin: 'kotlin-android'
 group='com.github.abdusman2002'
-version='1.0.1'
+version='1.0.2'
 android {
     compileSdk 32
 
@@ -50,7 +50,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.abdusman2002'
                 artifactId = 'libraryTest'
-                version = '1.0.1'
+                version = '1.0.2'
             }
         }
     }
