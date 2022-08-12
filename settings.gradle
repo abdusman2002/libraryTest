@@ -11,6 +11,14 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
+//    buildscript {
+//        ext.kotlin_version = '1.7.20-Beta'
+//
+//        dependencies {
+//            classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+//        }
+//    }
 }
+
 rootProject.name = "libraryTest"
 include ':app'
